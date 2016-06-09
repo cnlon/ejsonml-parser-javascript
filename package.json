@@ -1,0 +1,48 @@
+{
+  "name": "ejsonml-parser-javascript",
+  "version": "0.0.0",
+  "description": "Parse eJsonML to javascript",
+  "main": "lib/",
+  "scripts": {
+    "test": "$(npm bin)/mocha",
+    "lint": "$(npm bin)/eslint lib/**",
+    "dev": "$(npm bin)/webpack-dev-server --config dev/webpack.dev.config.js --content-base dev/ --inline --hot --port 30360"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longhaohe/ejsonml-parser-javascript.git"
+  },
+  "keywords": [
+    "ejsonml-parser-javascript",
+    "ejsonml-parser",
+    "jsonml",
+    "expression",
+    "ejsonml",
+    "parser",
+    "javascript"
+  ],
+  "author": "longhao he <longhaohe@gmail.com> (http://longhaohe.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/longhaohe/ejsonml-parser-javascript/issues"
+  },
+  "homepage": "https://github.com/longhaohe/ejsonml-parser-javascript#readme",
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "chai": "^3.5.0",
+    "eslint": "^2.10.2",
+    "eslint-config-standard": "^5.3.1",
+    "eslint-plugin-promise": "^1.3.0",
+    "eslint-plugin-standard": "^1.3.2",
+    "json-loader": "^0.5.4",
+    "mocha": "^2.5.3",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "ejsonml-parser": "^0.0.2",
+    "gep": "^1.0.1"
+  }
+}
