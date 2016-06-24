@@ -42,7 +42,6 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "ejsonml-parser": "^0.0.2",
-    "gep": "^1.0.1"
+    "gep": "^1.3.1"
   }
 }
