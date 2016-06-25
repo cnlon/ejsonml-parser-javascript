@@ -6,7 +6,7 @@ window.onload = function () {
   const jmlParser = new JmlParser({
     callback (jml) {
       const resNode = document.getElementById('jml')
-      resNode.innerText = JSON.stringify(jml, null, 2)
+      resNode.innerText = jml
     },
   })
   parser.install(jmlParser)
