@@ -1,6 +1,6 @@
 {
   "name": "ejsonml-parser-javascript",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Parse eJsonML to javascript",
   "main": "lib/ejsonml-parser-javascript.js",
   "scripts": {
