@@ -1,7 +1,7 @@
 {
   "name": "ejsonml-parser-javascript",
   "version": "0.0.3",
-  "description": "Parse eJsonML to javascript",
+  "description": "A plugin of ejsonml-parser for Parsing eJsonML to javascript",
   "main": "lib/ejsonml-parser-javascript.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
   "pre-commit": "lint",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/longhaohe/ejsonml-parser-javascript.git"
+    "url": "git+https://github.com/lon3/ejsonml-parser-javascript.git"
   },
   "keywords": [
     "ejsonml-parser-javascript",
@@ -24,9 +24,9 @@
   "author": "longhao he <longhaohe@gmail.com> (http://longhaohe.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/longhaohe/ejsonml-parser-javascript/issues"
+    "url": "https://github.com/lon3/ejsonml-parser-javascript/issues"
   },
-  "homepage": "https://github.com/longhaohe/ejsonml-parser-javascript#readme",
+  "homepage": "https://github.com/lon3/ejsonml-parser-javascript#readme",
   "devDependencies": {
     "eslint": "^2.10.2",
     "eslint-config-standard": "^5.3.1",
